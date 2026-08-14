@@ -246,18 +246,30 @@
       padding: 0.9rem 1.2rem;
     }
     .about-text p {
-      font-size: 1.05rem;
-      line-height: 1.75;
-      color: #3a3a3a;
-      margin-bottom: 1.2rem;
-    }
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #3a3a3a;
+  margin-bottom: 1.2rem;
+}
 
-    @media (max-width: 900px) {
-      .stories-grid { grid-template-columns: 1fr; }
-      .story-card.featured { grid-row: auto; grid-column: auto; }
-      .about-inner { grid-template-columns: 1fr; }
-      .stats-band .container { grid-template-columns: 1fr; }
-    }
+@media (max-width: 900px) {
+  .stories-grid { grid-template-columns: 1fr; }
+  .story-card.featured { grid-row: auto; grid-column: auto; }
+  .about-inner { grid-template-columns: 1fr; }
+  .stats-band .container { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  .about-text p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: left;
+    hyphens: none;
+    -webkit-hyphens: none;
+  }
+  .about-inner { gap: 2rem; }
+  .about-strip { padding: 3rem 0; }
+}
   </style>
 </head>
 <body>
