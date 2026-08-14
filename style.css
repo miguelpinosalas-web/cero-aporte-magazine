@@ -357,4 +357,15 @@ a { color: inherit; text-decoration: none; }
   .nav-links { display: none; }
   .footer-inner { grid-template-columns: 1fr; }
   .footer-nav { justify-content: flex-start; }
+
+  /* Fix texto about en mobile */
+  .about-text p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: left;
+    -webkit-hyphens: none;
+    hyphens: none;
+  }
+  .about-inner { gap: 2rem; }
+  .about-strip { padding: 3rem 0; }
 }
