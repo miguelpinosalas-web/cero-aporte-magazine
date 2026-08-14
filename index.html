@@ -268,7 +268,9 @@
     -webkit-hyphens: none;
   }
   .about-inner { gap: 2rem; }
-  .about-strip { padding: 3rem 0; }
+  .about-strip {
+    padding: 3rem clamp(1.5rem, 5vw, 3rem);
+  }
 }
   </style>
 </head>
